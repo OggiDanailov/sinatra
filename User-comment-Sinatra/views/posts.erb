@@ -1,0 +1,15 @@
+<form action="/posts" method="post">
+		
+		<input type="text" name="title"  />
+
+		<textarea type="text" name="body"  maxlength="140" placeholder="Make a Post"> </textarea>
+		<button type="submit">Submit</button>
+	</form>
+	<hr>
+
+	<h2>List of all Posts</h2>
+	<% @posts.each do |p| %>
+	<li><a href="/posts/<%= p.id %>">Title: <%= p.title %></a></li>
+	<hr>
+	<%= p.body %>
+	<% end %>

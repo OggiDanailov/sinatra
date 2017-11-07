@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+
+
+
+<body>
+<nav>
+	<ul>
+		<li><a href="/"> Home</a></li>
+		<li>Whatever</li>
+		<li>Whatsoever</li>
+		<li>How cares?</li>
+	</ul>
+
+</nav>	
+
+<h4>Sign out</h4>
+<form action="/signout" method="post">
+	<input type="submit"value="Sign out">
+</form>
+
+<p><%=flash[:notice] if flash[:notice]%></p>
+
+
+
+
+	<%= yield %>
+
+
+
+<script  type="text/javascript" src='javascript/main.js'></script>
+</body>

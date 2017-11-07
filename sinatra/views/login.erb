@@ -1,0 +1,12 @@
+<form method='GET' acion='/login'>
+	<input type='text' name='username'>
+	<input type='text' name='password'>
+	<input type='submit'>
+</form>
+
+
+<% if @username == 'oggi' && @password = 'whatever' %>
+<%= "You are successful" %>
+<% else %>
+<div>'whatever'</div>
+<% end %>

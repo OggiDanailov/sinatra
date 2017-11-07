@@ -1,0 +1,70 @@
+.signForm {
+  display: inline-block;
+  margin-right: 50px; }
+
+.main-page-link {
+  background-color: teal;
+  width: 40%;
+  height: 40px;
+  margin: 0 auto; }
+
+.main-page-link p {
+  color: grey;
+  line-height: 40px;
+  margin-left: 10px; }
+
+.userSpace {
+  margin-left: 110px;
+  display: inline-block;
+  padding: 10px; }
+
+.six {
+  text-align: center; }
+
+.title, .body {
+  width: 250px;
+  height: 40px;
+  text-align: center; }
+
+.title {
+  border-top: 2px solid teal; }
+
+.blogList {
+  width: 70%;
+  margin: 0 auto; }
+
+.blogList li a {
+  text-decoration: none; }
+
+.titlePosts {
+  font-size: 19px;
+  font-weight: bold; }
+
+#postTitle {
+  color: teal; }
+
+body {
+  background-color: coral; }
+
+#react {
+  width: 80%;
+  height: 700px;
+  border: 2px solid green;
+  margin: 0 auto; }
+
+.api-results {
+  display: inline-block;
+  float: left;
+  margin: 20px;
+  width: 30%; }
+
+.images-api {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%; }
+
+.img-text {
+  font-family: cursive; }
+
+/*# sourceMappingURL=styles.css.map */

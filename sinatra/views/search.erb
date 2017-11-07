@@ -1,0 +1,11 @@
+<form method='GET' acion='/search'>
+	<input type='text' name='search'>
+	<input type='submit'>
+</form>
+
+
+<% if @search_term %>
+<div><%= "You serached for #{@search_term}" %></div>
+<% else %>
+<div>Search above</div>
+<% end %>

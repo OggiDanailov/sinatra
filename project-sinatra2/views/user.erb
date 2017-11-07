@@ -1,0 +1,7 @@
+<h1>This is here</h1> 
+<%= @user.name %>
+<hr>
+<% @user.blogs.each do |blog| %>
+<%=  blog.title %>
+<%= blog.body %>
+<% end %>
